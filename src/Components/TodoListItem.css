@@ -1,0 +1,11 @@
+.todo-list-item {
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    background-color: rgb(98,173,101);
+    border-bottom: 1px dotted black;
+}
