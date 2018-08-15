@@ -9,6 +9,8 @@
 }
 
 .title-row {
+    position: relative;
+    left: 100px;
     flex-grow: 2;
 }
 
@@ -16,12 +18,22 @@
     font-size: 24px;
 }
 
+.title-row > input {
+    width: 200px;
+}
+
 .body-row {
+    position: relative;
+    right: 100px;
     flex-grow: 2;
 }
 
 .body-row > p {
     font-size: 24px;
+}
+
+.body-row > input {
+    width: 200px;
 }
 
 .submit-row {
