@@ -22,7 +22,7 @@ class Todo extends React.Component {
 
     addTodo(title, body) {
         console.log(title, body);
-        axios.post('http://localhost:3001/todo', {
+        axios.post('https://nameless-temple-65108.herokuapp.com/todo', {
             "title": title,
             "body": body
         })
@@ -31,7 +31,7 @@ class Todo extends React.Component {
     }
 
     retrieveTodos() {
-        axios.get('http://localhost:3001')
+        axios.get('https://nameless-temple-65108.herokuapp.com/')
         .then(response => this.setState({todos: response.data.todos}))
         .catch(error => console.error("Unable to pull navigation " + error));
     }
